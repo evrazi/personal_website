@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const whatIDo = [
   {
     id: 0,
@@ -53,7 +55,13 @@ export default function Hero() {
               key={item.id}
               className={`rounded-3xl px-6 pb-6 shadow-[inset_0_0_5em_.1em_#fff] bg-gray-200/65 flex-shrink-0 w-60 backdrop-blur-lg`}
             >
-              <img src={item.image} className="object-contain w-full" />
+              <Image
+                alt={item.title + "image"}
+                src={item.image}
+                className="object-contain w-full"
+                height={100}
+                width={100}
+              />
               <p className="text-2xl font-semibold mt-8">{item.title}</p>
               <p className="text-xs mt-2 text-gray-800">{item.description}</p>
             </div>
