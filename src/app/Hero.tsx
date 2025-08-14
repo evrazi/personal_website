@@ -58,9 +58,9 @@ export default function Hero() {
               <Image
                 alt={item.title + "image"}
                 src={item.image}
-                className="object-contain w-full"
-                height={100}
-                width={100}
+                className="object-contain"
+                height={120}
+                width={200}
               />
               <p className="text-2xl font-semibold mt-8">{item.title}</p>
               <p className="text-xs mt-2 text-gray-800">{item.description}</p>

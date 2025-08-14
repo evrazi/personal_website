@@ -1,6 +1,6 @@
 import ArrowIcon from "@/components/ArrowIcon";
 import { cn } from "@/lib/utils";
-
+import Image from "next/image";
 const pastWork = [
   {
     className: "",
@@ -68,9 +68,12 @@ export default function Projects() {
             {work.items.map((item) => (
               <div key={item.id} className="mb-16">
                 {/* <CursorImage url={`/work/${item.image}`} /> */}
-                <img
+                <Image
+                  alt={item.name + "image"}
                   src={`/work/${item.image}`}
                   className="object-contain w-full rounded-2xl"
+                  height={1000}
+                  width={600}
                 />
                 <p className="mt-3">
                   <span className="font-semibold text-black text-xl">
