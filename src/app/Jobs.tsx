@@ -95,7 +95,7 @@ export default function Jobs() {
     <>
       <p className="text-center">Jobs</p>
       <h2 className="text-center text-4xl font-semibold mt-2">
-        What I’ve Been Up To
+        What I've Been Up To
       </h2>
       <div className="max-w-4xl mx-auto mt-10">
         {jobs.map((job) => {

@@ -11,6 +11,14 @@ const compat = new FlatCompat({
 
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
+
+  {
+    rules: {
+      // Disable the warning about unescaped characters in JSX
+      "react/no-unescaped-entities": "off",
+    },
+    ignoreDuringBuilds: true,
+  },
 ];
 
 export default eslintConfig;

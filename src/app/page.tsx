@@ -51,9 +51,9 @@ export default function Home() {
         </h2>
 
         <p className="mt-4 text-center">
-          Hi, I’m Črt Božič — a software developer from Ljubljana, Slovenia,
+          Hi, I'm Črt Božič — a software developer from Ljubljana, Slovenia,
           with over seven years of professional experience and 12+ years of
-          coding experience. I’ve worked across the full stack, building
+          coding experience. I've worked across the full stack, building
           everything from real-time web apps and mobile platforms to AI-powered
           tools and cloud-based systems. My background spans frontend and
           backend development, DevOps, mobile, IoT, and even Web3 and game
@@ -66,7 +66,7 @@ export default function Home() {
           staying curious in a fast-changing field.
         </p>
         <p className="mt-2 text-center">
-          Outside of work, I’m into hiking, wingsuiting, and hands-on tech
+          Outside of work, I'm into hiking, wingsuiting, and hands-on tech
           projects like home automation, microcontrollers, and experimental
           drones. I'm currently developing an AI-powered documentation tool
           using RAG and collaborating on a custom-built VTOL drone.

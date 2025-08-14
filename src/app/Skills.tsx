@@ -93,7 +93,7 @@ export default function Skills() {
     <>
       <p className="text-center">Skills</p>
       <h2 className="text-center text-4xl font-semibold mt-2">
-        Things I’m Pretty Great At
+        Things I'm Pretty Great At
       </h2>
       <ArrowIcon />
 
